@@ -17,7 +17,6 @@ import com.example.polls.service.BookServiceImpl;
 
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
 @RequestMapping("/api/book")
 public class BookController {
 
